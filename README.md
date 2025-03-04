@@ -51,3 +51,9 @@ Ejecutar JS
 ```
 node dist/mongoogse.js
 ```
+
+## Fonts usades
+https://www.w3schools.com/mongodb/
+https://www.youtube.com/watch?v=lWMemPN9t6Q
+https://www.youtube.com/watch?v=gfP3aqV38q4
+chatgpt

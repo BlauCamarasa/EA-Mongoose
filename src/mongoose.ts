@@ -6,7 +6,7 @@ async function main() {
 
   await mongoose.connect('mongodb://127.0.0.1:27017/test')
   .then(() => console.log('Conectado a MongoDB'))
-  .catch(err => console.error('Error al conectar:', err));
+  .catch((err:unknown) => console.error('Error al conectar:', err));
 
   const user1:  IUser = {
     "name": 'Bill',
